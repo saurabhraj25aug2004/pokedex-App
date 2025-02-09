@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import PokemonDetails from "../components/PokemonDetails/PokemonDetails";
-import Pokedex from "../components/pokedex/pokedex";
+import Pokedex from "../components/Pokedex/Pokedex";
 
 function CustomRoutes(){
 
@@ -8,8 +8,7 @@ function CustomRoutes(){
         <Routes>
             <Route path ="/" element ={<Pokedex/>}  />
             <Route path ="/pokemon/:id" element={<PokemonDetails/>} />
-            
-
+        
         </Routes>
     );
 
